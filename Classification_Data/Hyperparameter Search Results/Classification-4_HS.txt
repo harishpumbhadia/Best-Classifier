@@ -1,0 +1,86 @@
+Australian Credit Approval Dataset
+
+Result for Logistic Regression Classification
+Grid Search
+{'C': 21.544346900318846, 'solver': 'newton-cg'}
+85.9% accuracy on validation sets (average)
+Training Accuracy :  0.8804347826086957
+Testing Accuracy :  0.8913043478260869
+Training Precision score :  0.84375
+Testing Precision score :  0.9032258064516129
+Randomized Search
+{'C': 59.27400878237967, 'solver': 'newton-cg'}
+85.9% accuracy on validation sets (average)
+Training Accuracy :  0.8804347826086957
+Testing Accuracy :  0.8913043478260869
+Training Precision score :  0.84375
+Testing Precision score :  0.9032258064516129
+
+Result for Gaussian Naive Bayes Classification
+Training Accuracy :  0.7844202898550725
+Testing Accuracy :  0.8043478260869565
+Training Precision score :  0.847457627118644
+Testing Precision score :  0.9523809523809523
+
+Result for Decision Tree Classification
+Grid Search
+{'max_depth': 20, 'max_features': 'auto', 'min_samples_leaf': 2, 'min_samples_split': 5}
+82.1% accuracy on validation sets (average)
+Training Accuracy :  0.9293478260869565
+Testing Accuracy :  0.8333333333333334
+Training Precision score :  0.9511111111111111
+Testing Precision score :  0.8620689655172413
+Randomized Search
+{'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 100}
+82.1% accuracy on validation sets (average)
+Training Accuracy :  0.9293478260869565
+Testing Accuracy :  0.8333333333333334
+Training Precision score :  0.9511111111111111
+Testing Precision score :  0.8620689655172413
+
+Result for K-Nearest Neighbours Classification
+Grid Search
+{'algorithm': 'auto', 'n_neighbors': 19, 'p': 1, 'weights': 'distance'}
+71.2% accuracy on validation sets (average)
+Training Accuracy :  1.0
+Testing Accuracy :  0.7391304347826086
+Training Precision score :  1.0
+Testing Precision score :  0.8085106382978723
+Randomized Search
+{'weights': 'distance', 'p': 1, 'n_neighbors': 19, 'algorithm': 'kd_tree'}
+71.2% accuracy on validation sets (average)
+Training Accuracy :  1.0
+Testing Accuracy :  0.7391304347826086
+Training Precision score :  1.0
+Testing Precision score :  0.8085106382978723
+
+Result for AdaBoost Classification
+Grid Search
+{'learning_rate': 0.05, 'n_estimators': 100}
+86.2% accuracy on validation sets (average)
+Training Accuracy :  0.875
+Testing Accuracy :  0.8913043478260869
+Training Precision score :  0.8215613382899628
+Testing Precision score :  0.890625
+Randomized Search
+{'n_estimators': 100, 'learning_rate': 0.05}
+86.2% accuracy on validation sets (average)
+Training Accuracy :  0.875
+Testing Accuracy :  0.8913043478260869
+Training Precision score :  0.8215613382899628
+Testing Precision score :  0.890625
+
+Result for SVM Classification
+Grid Search
+{'C': 10, 'gamma': 0.001}
+Training Accuracy :  0.9420289855072463
+Testing Accuracy :  0.717391304347826
+Training Precision score :  0.96875
+Testing Precision score :  0.703125
+Randomized Search
+{'C': 2.1450288700004143, 'gamma': 0.010036595781098502}
+Training Accuracy :  0.9728260869565217
+Testing Accuracy :  0.7463768115942029
+Training Precision score :  0.9829787234042553
+Testing Precision score :  0.7205882352941176
+-------------------------------------------------------

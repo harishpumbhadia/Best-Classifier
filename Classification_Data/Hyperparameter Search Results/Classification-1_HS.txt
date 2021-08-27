@@ -1,0 +1,86 @@
+Diabetic Retinopathy Dataset
+
+Result for Logistic Regression Classification
+Grid Search
+{'C': 21.544346900318846, 'solver': 'newton-cg'}
+75.5% accuracy on validation sets (average)
+Training Accuracy :  0.7652173913043478
+Testing Accuracy :  0.7272727272727273
+Training Recall score :  0.7089397089397089
+Testing Recall score :  0.6692307692307692
+Randomized Search
+{'C': 59.27400878237967, 'solver': 'newton-cg'}
+75.8% accuracy on validation sets (average)
+Training Accuracy :  0.7673913043478261
+Testing Accuracy :  0.7316017316017316
+Training Recall score :  0.7110187110187111
+Testing Recall score :  0.676923076923077
+
+Result for Gaussian Naive Bayes Classification
+Training Accuracy :  0.6054347826086957
+Testing Accuracy :  0.5367965367965368
+Training Recall score :  0.3076923076923077
+Testing Recall score :  0.23846153846153847
+
+Result for Decision Tree Classification
+Grid Search
+{'max_depth': 40, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 5}
+62.6% accuracy on validation sets (average)
+Training Accuracy :  0.9532608695652174
+Testing Accuracy :  0.5757575757575758
+Training Recall score :  0.9397089397089398
+Testing Recall score :  0.5769230769230769
+Randomized Search
+{'min_samples_split': 5, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 70}
+62.6% accuracy on validation sets (average)
+Training Accuracy :  0.9532608695652174
+Testing Accuracy :  0.5757575757575758
+Training Recall score :  0.9397089397089398
+Testing Recall score :  0.5769230769230769
+
+Result for K-Nearest Neighbours Classification
+Grid Search
+{'algorithm': 'auto', 'n_neighbors': 11, 'p': 1, 'weights': 'uniform'}
+68.0% accuracy on validation sets (average)
+Training Accuracy :  0.741304347826087
+Testing Accuracy :  0.645021645021645
+Training Recall score :  0.6673596673596673
+Testing Recall score :  0.5769230769230769
+Randomized Search
+{'weights': 'uniform', 'p': 1, 'n_neighbors': 11, 'algorithm': 'kd_tree'}
+68.0% accuracy on validation sets (average)
+Training Accuracy :  0.741304347826087
+Testing Accuracy :  0.645021645021645
+Training Recall score :  0.6673596673596673
+Testing Recall score :  0.5769230769230769
+
+Result for AdaBoost Classification
+Grid Search
+{'learning_rate': 1, 'n_estimators': 100}
+68.4% accuracy on validation sets (average)
+Training Accuracy :  0.8380434782608696
+Testing Accuracy :  0.7012987012987013
+Training Recall score :  0.7983367983367984
+Testing Recall score :  0.6538461538461539
+Randomized Search
+{'n_estimators': 100, 'learning_rate': 1}
+68.4% accuracy on validation sets (average)
+Training Accuracy :  0.8380434782608696
+Testing Accuracy :  0.7012987012987013
+Training Recall score :  0.7983367983367984
+Testing Recall score :  0.6538461538461539
+
+Result for SVM Classification
+Grid Search
+{'C': 10, 'gamma': 0.001}
+Training Accuracy :  0.8293478260869566
+Testing Accuracy :  0.6883116883116883
+Training Recall score :  0.7671517671517671
+Testing Recall score :  0.6692307692307692
+Randomized Search
+{'C': 2.1450288700004143, 'gamma': 0.010036595781098502}
+Training Accuracy :  0.9478260869565217
+Testing Accuracy :  0.6536796536796536
+Training Recall score :  0.920997920997921
+Testing Recall score :  0.7153846153846154
+-------------------------------------------------------

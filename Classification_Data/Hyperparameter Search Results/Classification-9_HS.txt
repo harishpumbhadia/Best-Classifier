@@ -1,0 +1,85 @@
+Seismic-Bumps Dataset
+
+Result for Logistic Regression Classification
+Grid Search
+{'C': 0.01, 'solver': 'sag'}
+93.1% accuracy on validation sets (average)
+Training Accuracy :  0.9308176100628931
+Testing Accuracy :  0.9477756286266924
+Training f1 score :  [0.96416938 0.        ]
+Testing f1 score :  [0.97318769 0.        ]
+Randomized Search
+{'C': 1.6201992312571625, 'solver': 'sag'}
+93.1% accuracy on validation sets (average)
+Training Accuracy :  0.9308176100628931
+Testing Accuracy :  0.9477756286266924
+Training f1 score :  [0.96416938 0.        ]
+Testing f1 score :  [0.97318769 0.        ]
+
+Result for Gaussian Naive Bayes Classification
+Training Accuracy :  0.9032414126753749
+Testing Accuracy :  0.9052224371373307
+Training f1 score :  [0.94842702 0.21875   ]
+Testing f1 score :  [0.94984647 0.14035088]
+
+Result for Decision Tree Classification
+Grid Search
+{'max_depth': 30, 'max_features': 'auto', 'min_samples_leaf': 4, 'min_samples_split': 2}
+91.9% accuracy on validation sets (average)
+Training Accuracy :  0.9414610546686019
+Testing Accuracy :  0.9245647969052224
+Training f1 score :  [0.96931271 0.36649215]
+Testing f1 score :  [0.96072508 0.04878049]
+Randomized Search
+{'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'auto', 'max_depth': 100}
+91.9% accuracy on validation sets (average)
+Training Accuracy :  0.9414610546686019
+Testing Accuracy :  0.9245647969052224
+Training f1 score :  [0.96931271 0.36649215]
+Testing f1 score :  [0.96072508 0.04878049]
+
+Result for K-Nearest Neighbours Classification
+Grid Search
+{'algorithm': 'auto', 'n_neighbors': 19, 'p': 2, 'weights': 'uniform'}
+93.0% accuracy on validation sets (average)
+Training Accuracy :  0.9322689888727624
+Testing Accuracy :  0.941972920696325
+Training f1 score :  [0.96484179 0.07894737]
+Testing f1 score :  [0.97011952 0.        ]
+Randomized Search
+{'weights': 'uniform', 'p': 2, 'n_neighbors': 19, 'algorithm': 'brute'}
+93.0% accuracy on validation sets (average)
+Training Accuracy :  0.9322689888727624
+Testing Accuracy :  0.941972920696325
+Training f1 score :  [0.96484179 0.07894737]
+Testing f1 score :  [0.97011952 0.        ]
+
+Result for AdaBoost Classification
+Grid Search
+{'learning_rate': 0.01, 'n_estimators': 50}
+93.1% accuracy on validation sets (average)
+Training Accuracy :  0.9308176100628931
+Testing Accuracy :  0.9477756286266924
+Training f1 score :  [0.96416938 0.        ]
+Testing f1 score :  [0.97318769 0.        ]
+Randomized Search
+{'n_estimators': 50, 'learning_rate': 0.01}
+93.1% accuracy on validation sets (average)
+Training Accuracy :  0.9308176100628931
+Testing Accuracy :  0.9477756286266924
+Training f1 score :  [0.96416938 0.        ]
+Testing f1 score :  [0.97318769 0.        ]
+
+Result for SVM Classification
+Grid Search
+{'C': 0.001, 'gamma': 0.001}
+Training Accuracy :  0.9308176100628931
+Testing Accuracy :  0.9477756286266924
+Training f1 score :  [0.96416938 0.        ]
+Testing f1 score :  [0.97318769 0.        ]
+Randomized Search
+{'C': 35.63638576496555, 'gamma': 6.93246700834265}
+Training Accuracy :  1.0
+Testing Accuracy :  0.9477756286266924
+Training f1 score :  [1. 1.]
+Testing f1 score :  [0.97318769 0.        ]

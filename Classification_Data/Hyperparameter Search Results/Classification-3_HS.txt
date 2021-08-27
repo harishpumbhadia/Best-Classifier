@@ -1,0 +1,86 @@
+Breast Cancer Wisconsin Dataset
+
+Result for Logistic Regression Classification
+Grid Search
+{'C': 0.1291549665014884, 'solver': 'newton-cg'}
+96.6% accuracy on validation sets (average)
+Training Accuracy :  0.9695885509838998
+Testing Accuracy :  0.9714285714285714
+Training Recall score :  0.956989247311828
+Testing Recall score :  0.9818181818181818
+Randomized Search
+{'C': 3.8591300943659266, 'solver': 'newton-cg'}
+96.6% accuracy on validation sets (average)
+Training Accuracy :  0.9695885509838998
+Testing Accuracy :  0.9714285714285714
+Training Recall score :  0.956989247311828
+Testing Recall score :  0.9818181818181818
+
+Result for Gaussian Naive Bayes Classification
+Training Accuracy :  0.7996422182468694
+Testing Accuracy :  0.7428571428571429
+Training Recall score :  0.3978494623655914
+Testing Recall score :  0.36363636363636365
+
+Result for Decision Tree Classification
+Grid Search
+{'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 4, 'min_samples_split': 10}
+95.2% accuracy on validation sets (average)
+Training Accuracy :  0.962432915921288
+Testing Accuracy :  0.9714285714285714
+Training Recall score :  0.967741935483871
+Testing Recall score :  0.9636363636363636
+Randomized Search
+{'min_samples_split': 10, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': 40}
+95.2% accuracy on validation sets (average)
+Training Accuracy :  0.962432915921288
+Testing Accuracy :  0.9714285714285714
+Training Recall score :  0.967741935483871
+Testing Recall score :  0.9636363636363636
+
+Result for K-Nearest Neighbours Classification
+Grid Search
+{'algorithm': 'auto', 'n_neighbors': 19, 'p': 1, 'weights': 'uniform'}
+69.2% accuracy on validation sets (average)
+Training Accuracy :  0.7066189624329159
+Testing Accuracy :  0.5642857142857143
+Training Recall score :  0.22580645161290322
+Testing Recall score :  0.14545454545454545
+Randomized Search
+{'weights': 'uniform', 'p': 2, 'n_neighbors': 19, 'algorithm': 'brute'}
+69.2% accuracy on validation sets (average)
+Training Accuracy :  0.7066189624329159
+Testing Accuracy :  0.5642857142857143
+Training Recall score :  0.22580645161290322
+Testing Recall score :  0.14545454545454545
+
+Result for AdaBoost Classification
+Grid Search
+{'learning_rate': 0.1, 'n_estimators': 100}
+96.2% accuracy on validation sets (average)
+Training Accuracy :  0.9767441860465116
+Testing Accuracy :  0.9785714285714285
+Training Recall score :  0.967741935483871
+Testing Recall score :  0.9818181818181818
+Randomized Search
+{'n_estimators': 100, 'learning_rate': 0.1}
+96.2% accuracy on validation sets (average)
+Training Accuracy :  0.9767441860465116
+Testing Accuracy :  0.9785714285714285
+Training Recall score :  0.967741935483871
+Testing Recall score :  0.9818181818181818
+
+Result for SVM Classification
+Grid Search
+{'C': 1, 'gamma': 0.001}
+Training Accuracy :  0.9856887298747764
+Testing Accuracy :  0.6
+Training Recall score :  0.956989247311828
+Testing Recall score :  0.01818181818181818
+Randomized Search
+{'C': 2.1450288700004143, 'gamma': 0.010036595781098502}
+Training Accuracy :  1.0
+Testing Accuracy :  0.6142857142857143
+Training Recall score :  1.0
+Testing Recall score :  0.01818181818181818
+-------------------------------------------------------

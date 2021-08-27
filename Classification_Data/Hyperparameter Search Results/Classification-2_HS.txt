@@ -1,0 +1,86 @@
+Default of Credit Card Clients Dataset
+
+Result for Logistic Regression Classification
+Grid Search
+{'C': 1.6681005372000592, 'solver': 'newton-cg'}
+79.2% accuracy on validation sets (average)
+Training Accuracy :  0.7926829268292683
+Testing Accuracy :  0.79
+Training Recall score :  0.12834978843441466
+Testing Recall score :  0.1270718232044199
+Randomized Search
+{'C': 3.8591300943659266, 'solver': 'newton-cg'}
+79.1% accuracy on validation sets (average)
+Training Accuracy :  0.792057535959975
+Testing Accuracy :  0.7875
+Training Recall score :  0.1227080394922426
+Testing Recall score :  0.12154696132596685
+
+Result for Gaussian Naive Bayes Classification
+Training Accuracy :  0.3405253283302064
+Testing Accuracy :  0.34375
+Training Recall score :  0.9055007052186178
+Testing Recall score :  0.8950276243093923
+
+Result for Decision Tree Classification
+Grid Search
+{'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 4, 'min_samples_split': 2}
+77.4% accuracy on validation sets (average)
+Training Accuracy :  0.8474046278924328
+Testing Accuracy :  0.7775
+Training Recall score :  0.44851904090267986
+Testing Recall score :  0.3259668508287293
+Randomized Search
+{'min_samples_split': 5, 'min_samples_leaf': 4, 'max_features': 'auto', 'max_depth': 10}
+77.4% accuracy on validation sets (average)
+Training Accuracy :  0.8474046278924328
+Testing Accuracy :  0.7775
+Training Recall score :  0.44851904090267986
+Testing Recall score :  0.3259668508287293
+
+Result for K-Nearest Neighbours Classification
+Grid Search
+{'algorithm': 'auto', 'n_neighbors': 19, 'p': 1, 'weights': 'distance'}
+77.2% accuracy on validation sets (average)
+Training Accuracy :  0.9996873045653534
+Testing Accuracy :  0.7675
+Training Recall score :  0.998589562764457
+Testing Recall score :  0.10497237569060773
+Randomized Search
+{'weights': 'distance', 'p': 1, 'n_neighbors': 19, 'algorithm': 'kd_tree'}
+77.2% accuracy on validation sets (average)
+Training Accuracy :  0.9996873045653534
+Testing Accuracy :  0.7675
+Training Recall score :  0.998589562764457
+Testing Recall score :  0.10497237569060773
+
+Result for AdaBoost Classification
+Grid Search
+{'learning_rate': 0.01, 'n_estimators': 50}
+80.5% accuracy on validation sets (average)
+Training Accuracy :  0.8045653533458411
+Testing Accuracy :  0.81125
+Training Recall score :  0.28067700987306066
+Testing Recall score :  0.3259668508287293
+Randomized Search
+{'n_estimators': 50, 'learning_rate': 0.01}
+80.5% accuracy on validation sets (average)
+Training Accuracy :  0.8045653533458411
+Testing Accuracy :  0.81125
+Training Recall score :  0.28067700987306066
+Testing Recall score :  0.3259668508287293
+
+Result for SVM Classification
+Grid Search
+{'C': 10, 'gamma': 0.001}
+Training Accuracy :  0.9949968730456535
+Testing Accuracy :  0.7775
+Training Recall score :  0.9873060648801129
+Testing Recall score :  0.027624309392265192
+Randomized Search
+{'C': 293.3587303300425, 'gamma': 0.7560475560831588}
+Training Accuracy :  0.9996873045653534
+Testing Accuracy :  0.7725
+Training Recall score :  0.998589562764457
+Testing Recall score :  0.0
+-------------------------------------------------------

@@ -1,0 +1,40 @@
+Steel Plates Faults Dataset
+
+Result for Logistic Regression Classification
+Training Accuracy :  0.9381443298969072
+Testing Accuracy :  0.9460154241645244
+Training f1 score :  [0.953125   0.90909091]
+Testing f1 score :  [0.96045198 0.91497976]
+
+Result for Gaussian Naive Bayes Classification
+Training Accuracy :  0.5038659793814433
+Testing Accuracy :  0.46786632390745503
+Training f1 score :  [0.3984375  0.57785088]
+Testing f1 score :  [0.37837838 0.53483146]
+
+Result for Decision Tree Classification
+Training Accuracy :  1.0
+Testing Accuracy :  1.0
+Training f1 score :  [1. 1.]
+Testing f1 score :  [1. 1.]
+
+Result for K-Nearest Neighbours Classification
+Training Accuracy :  0.759020618556701
+Testing Accuracy :  0.6606683804627249
+Training f1 score :  [0.82291667 0.62298387]
+Testing f1 score :  [0.7509434  0.46774194]
+
+Result for AdaBoost Classification
+Training Accuracy :  1.0
+Testing Accuracy :  1.0
+Training f1 score :  [1. 1.]
+Testing f1 score :  [1. 1.]
+
+Result for SVM Classification
+Training Accuracy :  0.654639175257732
+Testing Accuracy :  0.6683804627249358
+Training f1 score :  [0.78930818 0.04285714]
+Testing f1 score :  [0.8        0.03007519]
+-------------------------------------------------------
+
+

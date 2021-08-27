@@ -1,0 +1,106 @@
+Yeast Dataset
+
+Result for Logistic Regression Classification
+Grid Search
+{'C': 5.994842503189409, 'solver': 'newton-cg'}
+60.6% accuracy on validation sets (average)
+Training Accuracy :  0.6124684077506318
+Testing Accuracy :  0.5993265993265994
+Training f1 score :  [0.61297539 1.         0.70833333 0.74193548 0.5        0.82733813
+ 0.5923913  0.53807107 0.56       0.        ]
+Testing f1 score :  [0.62931034 0.33333333 0.60869565 0.125      0.75862069 0.61538462
+ 0.56578947 0.66666667 0.        ]
+Randomized Search
+{'C': 59.27400878237967, 'solver': 'newton-cg'}
+60.0% accuracy on validation sets (average)
+Training Accuracy :  0.6141533277169334
+Testing Accuracy :  0.5959595959595959
+Training f1 score :  [0.60619977 1.         0.75471698 0.75409836 0.51851852 0.83274021
+ 0.59782609 0.54026846 0.61538462 0.        ]
+Testing f1 score :  [0.62162162 0.28571429 0.58333333 0.125      0.75862069 0.63157895
+ 0.5751634  0.57142857 0.        ]
+
+Result for Gaussian Naive Bayes Classification
+Training Accuracy :  0.5754001684919966
+Testing Accuracy :  0.5757575757575758
+Training f1 score :  [0.59004739 0.58823529 0.55263158 0.63333333 0.45454545 0.77697842
+ 0.61077844 0.5026362  0.64285714 0.06896552]
+Testing f1 score :  [0.62443439 0.         0.47619048 0.66666667 0.2962963  0.70588235
+ 0.62790698 0.53521127 0.57142857 0.        ]
+
+Result for Decision Tree Classification
+Grid Search
+{'max_depth': 10, 'max_features': 'auto', 'min_samples_leaf': 1, 'min_samples_split': 10}
+55.6% accuracy on validation sets (average)
+Training Accuracy :  0.7017691659646167
+Testing Accuracy :  0.5959595959595959
+Training f1 score :  [0.69594595 0.88888889 0.76       0.82352941 0.68421053 0.85915493
+ 0.67261905 0.66666667 0.5        0.2       ]
+Testing f1 score :  [0.61538462 0.28571429 0.53846154 0.25       0.76363636 0.65168539
+ 0.56756757 0.57142857 0.        ]
+Randomized Search
+{'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'sqrt', 'max_depth': 20}
+54.9% accuracy on validation sets (average)
+Training Accuracy :  0.7455770850884583
+Testing Accuracy :  0.5622895622895623
+Training f1 score :  [0.79353234 0.33333333 0.65454545 0.74193548 0.59259259 0.84827586
+ 0.70680628 0.73650794 0.51851852 0.12903226]
+Testing f1 score :  [0.58490566 0.         0.54545455 0.61538462 0.35294118 0.71428571
+ 0.55913978 0.53333333 0.25       0.        ]
+
+Result for K-Nearest Neighbours Classification
+Grid Search
+{'algorithm': 'auto', 'n_neighbors': 5, 'p': 1, 'weights': 'distance'}
+56.5% accuracy on validation sets (average)
+Training Accuracy :  1.0
+Testing Accuracy :  0.5723905723905723
+Training f1 score :  [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+Testing f1 score :  [0.64423077 0.30769231 0.22222222 0.26666667 0.39285714 0.625
+ 0.625      0.         0.25      ]
+Randomized Search
+{'weights': 'distance', 'p': 1, 'n_neighbors': 5, 'algorithm': 'auto'}
+56.5% accuracy on validation sets (average)
+Training Accuracy :  1.0
+Testing Accuracy :  0.5723905723905723
+Training f1 score :  [1. 1. 1. 1. 1. 1. 1. 1. 1. 1.]
+Testing f1 score :  [0.64423077 0.30769231 0.22222222 0.26666667 0.39285714 0.625
+ 0.625      0.         0.25      ]
+
+Result for AdaBoost Classification
+Grid Search
+{'learning_rate': 0.01, 'n_estimators': 100}
+41.0% accuracy on validation sets (average)
+Training Accuracy :  0.46082561078348777
+Testing Accuracy :  0.4511784511784512
+Training f1 score :  [0.56750202 0.         0.59375    0.71875    0.5        0.8
+ 0.01       0.06266319 0.         0.        ]
+Testing f1 score :  [0.57230769 0.30769231 0.84615385 0.26666667 0.77419355 0.
+ 0.04301075 0.         0.        ]
+Randomized Search
+{'n_estimators': 100, 'learning_rate': 0.01}
+41.0% accuracy on validation sets (average)
+Training Accuracy :  0.46082561078348777
+Testing Accuracy :  0.4511784511784512
+Training f1 score :  [0.56750202 0.         0.59375    0.71875    0.5        0.8
+ 0.01       0.06266319 0.         0.        ]
+Testing f1 score :  [0.57230769 0.30769231 0.84615385 0.26666667 0.77419355 0.
+ 0.04301075 0.         0.        ]
+
+Result for SVM Classification
+Grid Search
+{'C': 1, 'gamma': 0.1}
+Training Accuracy :  0.7270429654591407
+Testing Accuracy :  0.5555555555555556
+Training f1 score :  [0.78066038 0.         0.6        0.11764706 0.35714286 0.64031621
+ 0.75882353 0.76486486 0.3        0.63157895]
+Testing f1 score :  [0.64102564 0.22222222 0.         0.2        0.29090909 0.62222222
+ 0.59090909 0.         0.        ]
+Randomized Search
+{'C': 2.7701875692609796, 'gamma': 0.04940306753046185}
+Training Accuracy :  0.7337826453243471
+Testing Accuracy :  0.5387205387205387
+Training f1 score :  [0.78388278 0.33333333 0.6        0.11428571 0.45454545 0.65201465
+ 0.76923077 0.77247191 0.36363636 0.7       ]
+Testing f1 score :  [0.61883408 0.         0.2        0.         0.15384615 0.38095238
+ 0.59340659 0.58479532 0.         0.        ]
+-------------------------------------------------------
