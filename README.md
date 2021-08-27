@@ -1,1 +1,3 @@
 # BEST CLASSIFIER?
+## ABSTRACT
+This report explores two inquiries. To start with, for a given choice of datasets, would we be able to say what is the best classifier in terms of good predictions? What amount does the appropriate response rely upon the choice of datasets? How much does the answer depend on our computational constraints? We examine this inquiry utilizing datasets from the UCI repository. Second, are there some other potential routes through which we can improve the performance, considering the computational efficiency as well. Also, after having a brief idea of some of the machine learning concepts, have you tried your knowledge to some other datasets.
