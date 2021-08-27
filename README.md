@@ -44,9 +44,11 @@ So, if a colleague of mine were to download similar datasets like the ones in th
 Please find all information in README.txt file in the project folder. More Plots and results of experiments are present in the Plotting_Graph. Exhaustive result and best model details are in XLS files in the project folder.
 
 ![image](https://user-images.githubusercontent.com/31453658/131103799-fe61550d-151a-4290-b269-7afab61d7903.png)
+
 Figure 1: Classification on training accuracy (default)
 
 ![image](https://user-images.githubusercontent.com/31453658/131103855-62128b3d-8a75-4586-8897-39c151a4094d.png)
+
 Figure 2: Classification on testing accuracy (default)
 
 
