@@ -34,3 +34,19 @@ After reading the data, it is necessary to check for the class imbalance especia
 • Thoracic Surgery Data: Columns contains categorical data and so we applied label encoding for the numeric conversion. Due to class imbalance, we used f1 score for the evaluation.
 
 • Seismic-Bumps: Here, also we have categorical non numeric value and so we applied label encoding. Used f1 score for evaluation.
+
+## CONCLUSION:
+After running models on nine different datasets, we can conclude that we cannot give the title of best classifier to any one model. Different techniques respond differently to different datasets. A number of things like size of dataset, number of features and type of values in the data. Also, we could see that there is a clear trade off between accuracy and computational complexities and time taken to train the model. thorough analysis, for Classification we can say that ensembles have performed well. AdaBoost performed much better on an average against rest of their competitors. Multiple estimators in ensembles kicks out the uncertainty and arbitrariness of models like decision tree. Also, Logistic Regression gives surprisingly good results. It’s performance of significantly increases after hyper-parameter search. It works best when working with binary data and also takes significantly less time to train compared to ensembles. One more observation from our analysis is that Logistic Regression didn’t over-fit. Support Vector Machines give decent results but take a lot of time when number of features are more. This can be a very difficult task for an amateur in the field. Gaussian Naive Bayes result were very bad. The biggest reason can be the assumptions of independence upon which it works. But if those assumptions hold true, it can give very good results with very less training data.
+
+So, if a colleague of mine were to download similar datasets like the ones in this study, AdaBoost is definitely a go to. With exhaustive search it can give great result. In case of lack of good computational resources Logistic Regression is the first one a person should try. At last we can conclude that there are pros and cons of using any technique. With better understanding of the data, one can figure out which model could work best.
+
+## OVERVIEW OF THE PROJECT CODE AND DATA:
+Please find all information in README.txt file in the project folder. More Plots and results of experiments are present in the Plotting_Graph. Exhaustive result and best model details are in XLS files in the project folder.
+
+![image](https://user-images.githubusercontent.com/31453658/131103799-fe61550d-151a-4290-b269-7afab61d7903.png)
+Figure 1: Classification on training accuracy (default)
+
+![image](https://user-images.githubusercontent.com/31453658/131103855-62128b3d-8a75-4586-8897-39c151a4094d.png)
+Figure 2: Classification on testing accuracy (default)
+
+
